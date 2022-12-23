@@ -14,10 +14,10 @@ return require('packer').startup(function(use)
   }
 
   use({
-	  'sainnhe/gruvbox-material',
-	  as = 'gruvbox-material',
+	  'navarasu/onedark.nvim',
+	  as = 'onedark',
 	  config = function()
-		  vim.cmd('colorscheme gruvbox-material')
+		  vim.cmd('colorscheme onedark')
 	  end
   })
 
