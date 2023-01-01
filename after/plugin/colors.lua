@@ -29,7 +29,7 @@ require('onedark').setup  {
         keywords = 'none',
         functions = 'none',
         strings = 'none',
-        variables = 'none'
+       variables = 'none'
     },
 
     -- Lualine options --
