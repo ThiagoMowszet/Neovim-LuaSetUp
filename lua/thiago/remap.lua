@@ -43,3 +43,4 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
 -- Improve this!!
 vim.cmd('nnoremap <F4> :NvimTreeToggle<CR>')
+vim.cmd('nnoremap <F3> :ToggleTerm<CR>')

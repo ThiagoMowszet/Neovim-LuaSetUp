@@ -75,4 +75,8 @@ use {
     'xiyaowong/nvim-transparent'
   }
 
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+      require("toggleterm").setup({shell='pwsh.exe', direction = 'float'})
+  end}
+
 end)
