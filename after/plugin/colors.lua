@@ -2,6 +2,7 @@ function ColorMyPencils(color)
 	color = color or "onedark"
 	vim.cmd.colorscheme(color)
 
+    -- transparent not working, only work's with an external plugin
 	--vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 	--vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 end
@@ -18,7 +19,7 @@ require('onedark').setup  {
     cmp_itemkind_reverse = false, -- reverse item kind highlights in cmp menu
 
     -- toggle theme style ---
-    toggle_style_key = nil, -- keybind to toggle theme style. Leave it nil to disable it, or set it to a string, for example "<leader>ts"
+    toggle_style_key = 'darker', -- keybind to toggle theme style. Leave it nil to disable it, or set it to a string, for example "<leader>ts"
     toggle_style_list = {'dark', 'darker', 'cool', 'deep', 'warm', 'warmer', 'light'}, -- List of styles to toggle between
 
     -- Change code style ---
