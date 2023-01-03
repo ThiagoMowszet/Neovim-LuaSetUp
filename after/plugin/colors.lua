@@ -3,8 +3,8 @@ function ColorMyPencils(color)
 	vim.cmd.colorscheme(color)
 
     -- transparent not working, only work's with an external plugin
-	--vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-	--vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+--	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+--	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 end
 
 ColorMyPencils()
@@ -49,3 +49,7 @@ require('onedark').setup  {
         background = true,    -- use background color for virtual text
     },
 }
+
+
+require("transparent").setup({enable=true})
+vim.cmd[[hi NvimTreeNormal guibg=NONE ctermbg=NONE]]
