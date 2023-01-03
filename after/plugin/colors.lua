@@ -53,3 +53,7 @@ require('onedark').setup  {
 
 require("transparent").setup({enable=true})
 vim.cmd[[hi NvimTreeNormal guibg=NONE ctermbg=NONE]]
+
+require('notify').setup({
+    background_colour = '#000000'
+})
