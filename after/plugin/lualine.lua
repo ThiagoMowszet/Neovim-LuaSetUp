@@ -1,6 +1,13 @@
+local custom = require'lualine.themes.gruvbox'
+custom.normal.c.bg = nil
+custom.normal.b.bg = nil
+custom.insert.b.bg = nil
+custom.visual.b.bg = nil
+custom.inactive.c.bg = nil
+
 require('lualine').setup {
 options = {
-  theme = 'auto', -- lualine theme
+  theme = custom, -- lualine theme
   component_separators = { left = '', right = '' },
   section_separators = { left = '', right = '' },
   disabled_filetypes = {     -- Filetypes to disable lualine for.
