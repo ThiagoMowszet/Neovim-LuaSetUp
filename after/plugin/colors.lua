@@ -9,15 +9,6 @@ end
 ColorMyPencils()
 
 
-
-vim.cmd[[hi GitSignsAdd guibg=NONE ctermbg=NONE]]
-vim.cmd[[hi GitSignsChange guibg=NONE ctermbg=NONE]]
-vim.cmd[[hi GitSignsDelete guibg=NONE ctermbg=NONE]]
-vim.cmd[[hi GitSignsDelete guibg=NONE ctermbg=NONE]]
-vim.cmd[[hi GitSignsChange guibg=NONE ctermbg=NONE]]
-vim.cmd[[hi GitSignsAdd guibg=NONE ctermbg=NONE]]
-
-
 require('notify').setup({
     background_colour = '#000000'
 })
