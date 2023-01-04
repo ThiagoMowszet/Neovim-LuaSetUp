@@ -20,5 +20,20 @@ require'nvim-treesitter.configs'.setup {
     -- Using this option may slow down your editor, and you may see some duplicate highlights.
     -- Instead of true it can also be a list of languages
     additional_vim_regex_highlighting = false,
+    rainbow = {
+        enabled = true,
+        extended_mode = true, 
+        colors = {
+              "#68a0b0",
+              "#946EaD",
+              "#c7aA6D",
+              -- "Gold",
+              -- "Orchid",
+              -- "DodgerBlue",
+              -- "Cornsilk",
+              -- "Salmon",
+              -- "LawnGreen",
+        }
+    }
   },
 }
