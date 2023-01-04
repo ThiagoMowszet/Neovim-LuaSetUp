@@ -95,7 +95,8 @@ return require('packer').startup(function(use)
     use("numToStr/Comment.nvim")
 
     use("Yggdroot/indentLine")
+    
+    use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
-    use {'romgrk/barbar.nvim', wants = 'nvim-web-devicons'}
 
 end)
