@@ -85,5 +85,12 @@ return require('packer').startup(function(use)
     })
 
     use {'rcarriga/nvim-notify'}
-    
- end)
+
+    use("christoomey/vim-tmux-navigator")
+
+    use("szw/vim-maximizer")
+
+    use("tpope/vim-surround")
+
+    use("numToStr/Comment.nvim")
+end)
