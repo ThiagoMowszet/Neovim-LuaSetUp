@@ -8,12 +8,12 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
-    use { 
-        "ellisonleao/gruvbox.nvim",
-            as = 'gruvbox',
-            config = function()
-            vim.cmd('colorscheme gruvbox')
-        end
+    use {
+        'ayu-theme/ayu-vim',
+        as = "ayu",
+        config = function()
+        vim.cmd('colorscheme ayu')
+    end
     }
 
 
@@ -67,9 +67,6 @@ return require('packer').startup(function(use)
         'lewis6991/gitsigns.nvim'
     }
 
-    use {
-        'xiyaowong/nvim-transparent'
-    }
 
     use {"akinsho/toggleterm.nvim", tag = '*', config = function()
         require("toggleterm").setup({shell='pwsh.exe', direction = 'float'})

@@ -90,6 +90,12 @@ _G.packer_plugins = {
     path = "C:\\Users\\Thiag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\auto-save.nvim",
     url = "https://github.com/Pocco81/auto-save.nvim"
   },
+  ayu = {
+    config = { "\27LJ\2\n3\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\20colorscheme ayu\bcmd\bvim\0" },
+    loaded = true,
+    path = "C:\\Users\\Thiag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ayu",
+    url = "https://github.com/ayu-theme/ayu-vim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Thiag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
@@ -129,12 +135,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Thiag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
-  },
-  gruvbox = {
-    config = { "\27LJ\2\n7\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\24colorscheme gruvbox\bcmd\bvim\0" },
-    loaded = true,
-    path = "C:\\Users\\Thiag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
-    url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
   indentLine = {
     loaded = true,
@@ -181,11 +181,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Thiag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-notify",
     url = "https://github.com/rcarriga/nvim-notify"
-  },
-  ["nvim-transparent"] = {
-    loaded = true,
-    path = "C:\\Users\\Thiag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-transparent",
-    url = "https://github.com/xiyaowong/nvim-transparent"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -241,14 +236,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: gruvbox
-time([[Config for gruvbox]], true)
-try_loadstring("\27LJ\2\n7\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\24colorscheme gruvbox\bcmd\bvim\0", "config", "gruvbox")
-time([[Config for gruvbox]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
-time([[Config for nvim-autopairs]], false)
 -- Config for: auto-save.nvim
 time([[Config for auto-save.nvim]], true)
 try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14auto-save\frequire\0", "config", "auto-save.nvim")
@@ -257,6 +244,14 @@ time([[Config for auto-save.nvim]], false)
 time([[Config for toggleterm.nvim]], true)
 try_loadstring("\27LJ\2\n^\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\2\nshell\rpwsh.exe\14direction\nfloat\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
 time([[Config for toggleterm.nvim]], false)
+-- Config for: ayu
+time([[Config for ayu]], true)
+try_loadstring("\27LJ\2\n3\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\20colorscheme ayu\bcmd\bvim\0", "config", "ayu")
+time([[Config for ayu]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
