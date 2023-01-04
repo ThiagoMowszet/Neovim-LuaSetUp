@@ -11,3 +11,12 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 
 vim.keymap.set("n", '<C-n>', ':NvimTreeToggle<CR>')
 vim.keymap.set("n", '<F3>', ':ToggleTerm<CR>')
+
+vim.keymap.set("n", "<leader>+", "<C-a>")
+vim.keymap.set("n", "<leader>-", "<C-x>")
+
+
+vim.keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
+vim.keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
+vim.keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width & height
+vim.keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
