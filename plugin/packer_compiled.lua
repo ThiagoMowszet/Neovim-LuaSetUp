@@ -125,6 +125,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Thiag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  indentLine = {
+    loaded = true,
+    path = "C:\\Users\\Thiag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indentLine",
+    url = "https://github.com/Yggdroot/indentLine"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Thiag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
