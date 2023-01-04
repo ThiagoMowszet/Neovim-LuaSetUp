@@ -96,4 +96,6 @@ return require('packer').startup(function(use)
 
     use("Yggdroot/indentLine")
 
+    use {'romgrk/barbar.nvim', wants = 'nvim-web-devicons'}
+
 end)
