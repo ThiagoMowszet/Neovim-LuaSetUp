@@ -12,6 +12,9 @@ vim.opt.cursorline = true
 
 vim.opt.wrap = false
 
+vim.g.loaded = 1
+vim.g.loaded_newtrPlugin = 1
+
 vim.opt.swapfile = false
 vim.opt.backup = false
 vim.opt.undofile = true
