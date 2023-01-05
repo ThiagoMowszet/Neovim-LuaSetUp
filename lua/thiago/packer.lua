@@ -9,10 +9,10 @@ return require('packer').startup(function(use)
     }
 
     use {
-        'ayu-theme/ayu-vim',
-        as = "ayu",
+        'morhetz/gruvbox',
+        as = "gruvbox",
         config = function()
-        vim.cmd('colorscheme ayu')
+        vim.cmd('colorscheme gruvbox')
     end
     }
 
