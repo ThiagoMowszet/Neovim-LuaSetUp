@@ -5,10 +5,7 @@ options = {
   theme = auto, -- lualine theme
   component_separators = { left = '', right = '' },
   section_separators = { left = '', right = '' },
-  disabled_filetypes = {     -- Filetypes to disable lualine for.
-      statusline = {},       -- only ignores the ft for statusline.
-      winbar = {},           -- only ignores the ft for winbar.
-  },
+  disabled_filetypes = {'packer', 'NvimTree'},
 
   ignore_focus = {},         -- If current filetype is in this list it'll
                              -- always be drawn as inactive statusline
