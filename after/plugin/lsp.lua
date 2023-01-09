@@ -5,6 +5,7 @@ lsp.preset("recommended")
 lsp.ensure_installed({
   'tsserver',
   'html',
+  'gopls'
 })
 
 local cmp = require('cmp')

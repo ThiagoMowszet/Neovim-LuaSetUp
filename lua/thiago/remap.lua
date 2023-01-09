@@ -10,7 +10,7 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 vim.keymap.set("n", '<C-n>', ':NvimTreeToggle<CR>')
-vim.keymap.set("n", '<F4>', ':ToggleTerm<CR>') -- How we can Toggle this?
+vim.keymap.set("n", '<C-m>', ':ToggleTerm<CR>') -- How we can Toggle this?
 
 vim.keymap.set("n", "<leader>+", "<C-a>")
 vim.keymap.set("n", "<leader>-", "<C-x>")
