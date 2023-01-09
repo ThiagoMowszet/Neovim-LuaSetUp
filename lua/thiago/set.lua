@@ -26,6 +26,7 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 --vim.opt.background = "dark"
+vim.cmd "set noshowmode"
 
 vim.opt.scrolloff = 8
 --vim.opt.signcolumn = "yes"

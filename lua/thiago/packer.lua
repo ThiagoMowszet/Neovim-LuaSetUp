@@ -9,10 +9,10 @@ return require('packer').startup(function(use)
     }
 
     use {
-        'morhetz/gruvbox',
-        as = "gruvbox",
+        "catppuccin/nvim",
+        as = "catppuccin",
         config = function()
-        vim.cmd('colorscheme gruvbox')
+        vim.cmd('colorscheme catppuccin')
     end
     }
 
