@@ -13,6 +13,9 @@ vim.cmd([[ highlight NvimTreeIndentMarker guifg=#3A56E1]])
 
 -- configure nvim-tree
 nvimtree.setup({
+  view = {
+      side = 'right'
+  },
   -- change folder arrow icons
   renderer = {
     icons = {
