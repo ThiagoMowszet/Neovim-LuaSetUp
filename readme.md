@@ -58,6 +58,8 @@ Si, 100%.
 
 
 
-# Mi espacio de trabajo
+## Mi espacio de trabajo
+
+#### La fuente que utilizo es: JetBrains Mono Nerd Font
 
 ![workspace-nvim](./images-readme/workspace-nvim.gif)
