@@ -10,6 +10,8 @@ bufferline.setup({
     show_close_icon = false,
     color_icons = true
   },
+
+-- need to change this ⬇
   highlights = {
     separator = {
       fg = 'NONE',
