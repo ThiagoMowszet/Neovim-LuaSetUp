@@ -3,7 +3,8 @@ Neovim es un editor de texto basado en modos (un lugar para escribir, otro para 
 
 # Porque lo utilizo? 
 Simplemente porque es mucho mas rapido que cualquier otro editor de texto que hay, como visual studio code o cualquiera de JetBrains, para poner un ejemplo.
-Ademas de su velocidad, algo que me encanta es que es muy personalizable. Ya que contamos con muchos plugins para instalar (como las extensiones en vsc) que son muy potentes. 
+
+Ademas de su velocidad, algo que me encanta es que es muy personalizable, ya que contamos con muchos plugins para instalar (como las extensiones en vsc) que son muy potentes. 
 
 En este documento voy a detallar cuales uso, para que y como me sirven en el dia a dia como desarrollador de software.
 
@@ -12,12 +13,12 @@ Sino tambien, que el mismo editor nos da una serie de configuraciones (que puede
 rapido dentro del codigo o documento de texto. 
 
 Por ejemplo, para movernos de forma vertical usamos las letras J y K y para movernos horizontalmente lo hacemos con H y L. 
-Esto debido a que, una de las grandes razones para usar Neovim es dejar el mouse/raton de lado y solo usar el teclado para hacer todo.
+Esto debido a que, una de las grandes razones para usar Neovim es dejar el mouse/raton de lado y solo usar el teclado para hacer todo lo que necesitemos.
 
 En resumen, las ventajas de Neovim son: 
 
 * Rapidez/Velocidad
-* Personalizable (todo puede ser hecho a medida)
+* Personalizacion (todo puede ser hecho a medida)
 * Todo puede ser controlado por teclado
 
 
@@ -36,7 +37,9 @@ Si, 100%.
 
 | Plugin | URL     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `Packer`      | `https://github.com/wbthomason/packer.nvim` | Packer es un gestor de paquetes para descargar plugins en Neovim |
-| `Telescope`| `https://github.com/nvim-telescope/telescope.nvim` | Teslescope es un un buscador de archivos muy potente|
-|`catpuccin` | `https://github.com/catppuccin/catppuccin` | catppuccin por ahora es mi esquema de colores, funciona muy bien y tiene muy buenas integraciones con otros plugins |
+| `Packer`      | https://github.com/wbthomason/packer.nvim | Packer es un gestor de paquetes para descargar plugins en Neovim |
+| `Telescope`| https://github.com/nvim-telescope/telescope.nvim | Teslescope es un un buscador de archivos muy potente|
+|`catpuccin` | https://github.com/catppuccin/catppuccin | catppuccin por ahora es mi esquema de colores, funciona muy bien y tiene muy buenas integraciones con otros plugins |
 | `nvim-treesitter` | https://github.com/nvim-treesitter/nvim-treesitter | Proporciona funciones basicas como el highlighting del texto |
+| `lsp-zero` | https://github.com/VonHeikemen/lsp-zero.nvim | Auto Completado |
+| `nvim-web-devicons` | https://github.com/nvim-tree/nvim-web-devicons | Iconos para los arhivos |
