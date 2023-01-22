@@ -31,14 +31,27 @@ Si, 100%.
 
 ## Plugins
 
-#### Estos son todos mis plugins, los pueden encontrar en config: lua/thiago/packer.lua
+#### Estos son todos mis plugins, tambien los pueden encontrar en: lua/thiago/packer.lua
 #### Y sus respectivas configuraciones en: after/plugin/
 
 | Plugin | URL     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `Packer`      | https://github.com/wbthomason/packer.nvim | Packer es un gestor de paquetes para descargar plugins en Neovim |
 | `Telescope`| https://github.com/nvim-telescope/telescope.nvim | Teslescope es un un buscador de archivos muy potente|
-|`catpuccin` | https://github.com/catppuccin/catppuccin | catppuccin por ahora es mi esquema de colores, funciona muy bien y tiene muy buenas integraciones con otros plugins |
+|`catpuccin` | https://github.com/catppuccin/catppuccin | Catppuccin por ahora es mi esquema de colores, funciona muy bien y tiene muy buenas integraciones con otros plugins |
 | `nvim-treesitter` | https://github.com/nvim-treesitter/nvim-treesitter | Proporciona funciones basicas como el highlighting del texto |
 | `lsp-zero` | https://github.com/VonHeikemen/lsp-zero.nvim | Auto Completado |
 | `nvim-web-devicons` | https://github.com/nvim-tree/nvim-web-devicons | Iconos para los arhivos |
+| `lualine` | https://github.com/nvim-lualine/lualine.nvim | Lualine nos proporciona una barra de modos |
+| `nvim-tree` | https://github.com/nvim-tree/nvim-tree.lua | NvimTree nos proporciona un explorardor de archivo |
+| `autopairs` | https://github.com/windwp/nvim-autopairs | Autopairs nos automatiza los simbolos |
+| `toggleterm` | https://github.com/akinsho/toggleterm.nvim | Personalmente uno de mis favoritos, nos provee de una terminal integrada |
+| `gitsings` | https://github.com/lewis6991/gitsigns.nvim | Nos indica si agregamos o eliminamos lineas de codigo en nuestro workspace |
+| `auto-save` | https://github.com/Pocco81/auto-save.nvim | Funciona para salvar automaticamente todos los cambios | 
+| `nvim-notify` | https://github.com/rcarriga/nvim-notify | Nos envia notificaciones por si algo no funciona, o cuando creamos nuevos directorios, por ejemplo. |
+| `vim-tmux-navigator` | https://github.com/christoomey/vim-tmux-navigator | Nos permite movernos a diferentes espacios de trabajo de forma comoda | 
+| `vim-maximizer` | https://github.com/szw/vim-maximizer | Si estamos trabajando con dos ventanas, nos permite maximizar la actual |
+| `vim-surround` | https://github.com/tpope/vim-surround | Nos permite seleccionar una palabra y agregarle los simboles que querramos | 
+| `comment` | https://github.com/numToStr/Comment.nvim | Funciona para un comentado rapido |
+| `indentLine` | https://github.com/Yggdroot/indentLine | Nos provee de una linea para el indentado | 
+| `bufferline` | https://github.com/akinsho/bufferline.nvim | Gestor de ventanas | 
