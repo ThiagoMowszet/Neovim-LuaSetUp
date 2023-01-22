@@ -1,2 +1,2 @@
 require("thiago.set")
-require("thiago.remap")
+equire("thiago.remap")
