@@ -55,3 +55,9 @@ Si, 100%.
 | `comment` | https://github.com/numToStr/Comment.nvim | Funciona para un comentado rapido |
 | `indentLine` | https://github.com/Yggdroot/indentLine | Nos provee de una linea para el indentado | 
 | `bufferline` | https://github.com/akinsho/bufferline.nvim | Gestor de ventanas | 
+
+
+
+# Mi espacio de trabajo
+
+![workspace-nvim](./images-readme/workspace-nvim.gif)
