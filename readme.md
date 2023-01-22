@@ -37,7 +37,7 @@ Si, 100%.
 | Plugin | URL     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `Packer`      | https://github.com/wbthomason/packer.nvim | Packer es un gestor de paquetes para descargar plugins en Neovim |
-| `Telescope`| https://github.com/nvim-telescope/telescope.nvim | Teslescope es un un buscador de archivos muy potente|
+| `Telescope`| https://github.com/nvim-telescope/telescope.nvim | Telescope es un un buscador de archivos muy potente|
 |`catpuccin` | https://github.com/catppuccin/catppuccin | Catppuccin por ahora es mi esquema de colores, funciona muy bien y tiene muy buenas integraciones con otros plugins |
 | `nvim-treesitter` | https://github.com/nvim-treesitter/nvim-treesitter | Proporciona funciones basicas como el highlighting del texto |
 | `lsp-zero` | https://github.com/VonHeikemen/lsp-zero.nvim | Auto Completado |
