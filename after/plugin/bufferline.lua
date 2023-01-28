@@ -15,7 +15,8 @@ bufferline.setup({
   highlights = {
     separator = {
       fg = 'NONE', -- #2D2D2D to future changes
-      bg = 'NONE',
+      bg = 'NONE', -- #2D2D2D to future changes
+
     },
     separator_selected = {
       fg = 'NONE',
