@@ -82,7 +82,6 @@ return require('packer').startup(function(use)
         end,
     })
 
-    use {'rcarriga/nvim-notify'}
 
     use("christoomey/vim-tmux-navigator")
 
