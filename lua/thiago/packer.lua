@@ -17,6 +17,15 @@ return require('packer').startup(function(use)
     }
 
 
+    use {
+        'Mofiqul/vscode.nvim',
+        as = "vscode",
+        config = function()
+        vim.cmd('colorscheme vscode')
+    end
+    }
+
+
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
 
