@@ -8,24 +8,8 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
-    use {
-        "catppuccin/nvim",
-        as = "catppuccin",
-        config = function()
-        vim.cmd('colorscheme catppuccin')
-    end
-    }
-
-
-    use {
-        'Mofiqul/vscode.nvim',
-        as = "vscode",
-        config = function()
-        vim.cmd('colorscheme vscode')
-    end
-    }
-
-
+    use ({'joshdick/onedark.vim'})
+    
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
 
@@ -101,7 +85,7 @@ return require('packer').startup(function(use)
     use("numToStr/Comment.nvim")
 
     use("Yggdroot/indentLine")
-    
+
     use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
     -- use ('mg979/vim-visual-multi')
