@@ -9,7 +9,7 @@ return require('packer').startup(function(use)
     }
 
     use ({'joshdick/onedark.vim'})
-    
+
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
 
@@ -45,7 +45,7 @@ return require('packer').startup(function(use)
     use {
         'nvim-tree/nvim-tree.lua',
         requires = {
-            'nvim-tree/nvim-web-devicons', -- optional, for file icons
+            'nvim-tree/nvim-web-devicons'
         }
     }
 
@@ -56,38 +56,33 @@ return require('packer').startup(function(use)
     }
 
 
-    use {
-        'lewis6991/gitsigns.nvim'
-    }
+    use {'lewis6991/gitsigns.nvim'}
 
 
     use {"akinsho/toggleterm.nvim", tag = '*', config = function()
         require("toggleterm").setup({shell='pwsh.exe', direction = 'float'})
-    end}
+    end
+}
 
-    use({
-        "Pocco81/auto-save.nvim",
-        config = function()
-            require("auto-save").setup {
-                -- your config goes here
-                -- or just leave it empty :)
-            }
-        end,
-    })
+use({
+    "Pocco81/auto-save.nvim",
+    config = function()
+        require("auto-save").setup {}
+    end,
+})
 
 
-    use("christoomey/vim-tmux-navigator")
+use("christoomey/vim-tmux-navigator")
 
-    use("szw/vim-maximizer")
+use("szw/vim-maximizer")
 
-    use("tpope/vim-surround")
+use("tpope/vim-surround")
 
-    use("numToStr/Comment.nvim")
+use("numToStr/Comment.nvim")
 
-    use("Yggdroot/indentLine")
+use("Yggdroot/indentLine")
 
-    use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
-    -- use ('mg979/vim-visual-multi')
 
 end)
