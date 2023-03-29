@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
 
     use ({'joshdick/onedark.vim'})
 
+
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
 
@@ -60,7 +61,7 @@ return require('packer').startup(function(use)
 
 
     use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-        require("toggleterm").setup({shell='pwsh.exe', direction = 'float'})
+        require("toggleterm").setup({direction = 'float'})
     end
 }
 
@@ -84,5 +85,6 @@ use("Yggdroot/indentLine")
 
 use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
+use {'sainnhe/gruvbox-material'}
 
 end)

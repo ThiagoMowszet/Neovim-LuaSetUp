@@ -1,30 +1,30 @@
 require'nvim-treesitter.configs'.setup {
---  ensure_installed = {"help", "javascript", "lua", "json", "html", "css", "typescript"},
+    ensure_installed = {"help", "javascript", "lua", "json", "html", "css", "typescript", "markdown", "go", "python"},
 
-  sync_install = false,
+    sync_install = false,
 
-  auto_install = true,
+    auto_install = true,
 
 
-  highlight = {
-    enable = true,
+    highlight = {
+        enable = true,
 
-   additional_vim_regex_highlighting = false,
--- rainbows doesn't work
-    rainbow = {
-        enabled = true,
-        extended_mode = true, 
-        colors = {
-              "#68a0b0",
-              "#946EaD",
-              "#c7aA6D",
-              -- "Gold",
-              -- "Orchid",
-              -- "DodgerBlue",
-              -- "Cornsilk",
-              -- "Salmon",
-              -- "LawnGreen",
+        additional_vim_regex_highlighting = false,
+        -- rainbows doesn't work
+        rainbow = {
+            enabled = true,
+            extended_mode = true, 
+            colors = {
+                "#68a0b0",
+                "#946EaD",
+                "#c7aA6D",
+                -- "Gold",
+                -- "Orchid",
+                -- "DodgerBlue",
+                -- "Cornsilk",
+                -- "Salmon",
+                -- "LawnGreen",
+            }
         }
-    }
-  },
+    },
 }

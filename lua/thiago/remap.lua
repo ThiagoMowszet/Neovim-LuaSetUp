@@ -1,5 +1,6 @@
 vim.g.mapleader = " "
 
+
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
@@ -21,6 +22,8 @@ vim.keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
 vim.keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width & height
 vim.keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
 
+
+vim.keymap.set("n", "<leader>q", ":q<CR>") 
 
 vim.keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
 vim.keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab

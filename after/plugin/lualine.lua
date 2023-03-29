@@ -3,8 +3,8 @@
 require('lualine').setup {
     options = {
         theme = auto, -- lualine theme
-        component_separators = { left = '', right = '' },
-        section_separators = { left = '', right = '' },
+        component_separators = { left = '', right = '' },
+        section_separators = { left = '', right = '' },
         disabled_filetypes = {'packer', 'NvimTree'},
 
         ignore_focus = {},         -- If current filetype is in this list it'll
