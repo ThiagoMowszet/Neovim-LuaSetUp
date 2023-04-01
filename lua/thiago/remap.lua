@@ -16,6 +16,7 @@ vim.keymap.set("n", '<C-m>', ':ToggleTerm<CR>') -- How we can Toggle this? -- RE
 vim.keymap.set("n", "<leader>+", "<C-a>")
 vim.keymap.set("n", "<leader>-", "<C-x>")
 
+vim.keymap.set("n", "<leader>z", ":ZenMode<CR>")
 
 vim.keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
 vim.keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally

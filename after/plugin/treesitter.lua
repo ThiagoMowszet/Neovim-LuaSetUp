@@ -1,5 +1,6 @@
-require'nvim-treesitter.configs'.setup {
-    ensure_installed = {"help", "javascript", "lua", "json", "html", "css", "typescript", "markdown", "go", "python"},
+require('nvim-treesitter.configs').setup {
+
+    ensure_installed = {"help", "javascript", "lua", "json", "html", "css", "typescript", "markdown", "go", "python"}, -- TODO: JSON works buts crazyy !!
 
     sync_install = false,
 
@@ -8,16 +9,13 @@ require'nvim-treesitter.configs'.setup {
 
     highlight = {
         enable = true,
-
-        additional_vim_regex_highlighting = false,
-        -- rainbows doesn't work
         rainbow = {
             enabled = true,
             extended_mode = true, 
             colors = {
-                "#68a0b0",
-                "#946EaD",
-                "#c7aA6D",
+                -- "#68a0b0",
+                -- "#946EaD",
+                -- "#c7aA6D",
                 -- "Gold",
                 -- "Orchid",
                 -- "DodgerBlue",

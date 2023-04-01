@@ -81,10 +81,34 @@ use("tpope/vim-surround")
 
 use("numToStr/Comment.nvim")
 
-use("Yggdroot/indentLine")
 
 use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
 use {'sainnhe/gruvbox-material'}
+
+use({
+    "utilyre/barbecue.nvim",
+    tag = "*",
+    requires = {
+        "SmiteshP/nvim-navic",
+        "nvim-tree/nvim-web-devicons", -- optional dependency
+    },
+    after = "nvim-web-devicons", -- keep this if you're using NvChad
+    config = function()
+        require("barbecue").setup()
+    end,
+})
+
+
+use ("lukas-reineke/indent-blankline.nvim")
+
+use ("RRethy/vim-illuminate")
+
+use {
+    "folke/zen-mode.nvim",
+    config = function()
+        require("zen-mode").setup {}
+    end
+}
 
 end)
