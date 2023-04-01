@@ -111,4 +111,8 @@ use {
     end
 }
 
+use 'sunjon/shade.nvim' 
+
+use "windwp/nvim-ts-autotag"
+
 end)
