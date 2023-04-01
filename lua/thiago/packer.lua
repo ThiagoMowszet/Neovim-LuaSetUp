@@ -104,12 +104,6 @@ use ("lukas-reineke/indent-blankline.nvim")
 
 use ("RRethy/vim-illuminate")
 
-use {
-    "folke/zen-mode.nvim",
-    config = function()
-        require("zen-mode").setup {}
-    end
-}
 
 use 'sunjon/shade.nvim' 
 
