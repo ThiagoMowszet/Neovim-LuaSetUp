@@ -99,13 +99,9 @@ use({
     end,
 })
 
-
 use ("lukas-reineke/indent-blankline.nvim")
 
 use ("RRethy/vim-illuminate")
-
-
-use 'sunjon/shade.nvim' 
 
 use "windwp/nvim-ts-autotag"
 
