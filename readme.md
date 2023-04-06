@@ -24,7 +24,7 @@ En resumen, las ventajas de Neovim son:
 
 # Lo recomendarias para usar?
 Si, 100%.
-> Lo unico que deberian saber es que tiene una curva de aprendizaje larga, pero si les gusta seguramente les sea muy facil.
+> Lo unico que deberian saber es que tiene una curva de aprendizaje "larga", pero si les gusta seguramente les sea muy facil.
 > Si al principio les cuesta mucho, Visual Studio code tiene una extension para simular vim y otra extension en forma de juego para aprender como funciona.
 
 ![vsc-vimPlug](./images-readme/plug-for-vsc.png)
