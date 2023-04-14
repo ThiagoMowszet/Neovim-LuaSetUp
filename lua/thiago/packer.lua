@@ -105,4 +105,6 @@ use ("RRethy/vim-illuminate")
 
 use "windwp/nvim-ts-autotag"
 
+use "folke/zen-mode.nvim"
+
 end)
