@@ -38,7 +38,6 @@ Si, 100%.
 | :-------- | :------- | :-------------------------------- |
 | `Packer`      | https://github.com/wbthomason/packer.nvim | Packer es un gestor de paquetes para descargar plugins en Neovim |
 | `Telescope`| https://github.com/nvim-telescope/telescope.nvim | Telescope es un un buscador de archivos muy potente|
-|`catpuccin` | https://github.com/catppuccin/catppuccin | Catppuccin por ahora es mi esquema de colores, funciona muy bien y tiene muy buenas integraciones con otros plugins |
 | `nvim-treesitter` | https://github.com/nvim-treesitter/nvim-treesitter | Proporciona funciones basicas como el highlighting del texto |
 | `lsp-zero` | https://github.com/VonHeikemen/lsp-zero.nvim | Auto Completado |
 | `nvim-web-devicons` | https://github.com/nvim-tree/nvim-web-devicons | Iconos para los arhivos |
@@ -48,15 +47,19 @@ Si, 100%.
 | `toggleterm` | https://github.com/akinsho/toggleterm.nvim | Personalmente uno de mis favoritos, nos provee de una terminal integrada |
 | `gitsings` | https://github.com/lewis6991/gitsigns.nvim | Nos indica si agregamos o eliminamos lineas de codigo en nuestro workspace |
 | `auto-save` | https://github.com/Pocco81/auto-save.nvim | Funciona para salvar automaticamente todos los cambios | 
-| `nvim-notify` | https://github.com/rcarriga/nvim-notify | Nos envia notificaciones por si algo no funciona, o cuando creamos nuevos directorios, por ejemplo. |
 | `vim-tmux-navigator` | https://github.com/christoomey/vim-tmux-navigator | Nos permite movernos a diferentes espacios de trabajo de forma comoda | 
 | `vim-maximizer` | https://github.com/szw/vim-maximizer | Si estamos trabajando con dos ventanas, nos permite maximizar la actual |
 | `vim-surround` | https://github.com/tpope/vim-surround | Nos permite seleccionar una palabra y agregarle los simboles que querramos | 
 | `comment` | https://github.com/numToStr/Comment.nvim | Funciona para un comentado rapido |
-| `indentLine` | https://github.com/Yggdroot/indentLine | Nos provee de una linea para el indentado | 
 | `bufferline` | https://github.com/akinsho/bufferline.nvim | Gestor de ventanas | 
+| `gruvbox-material` | https://github.com/sainnhe/gruvbox-material | Gruvbox es mi nuevo esquema de colores. Tiene compatibilidad con todos mis plugins y evita el color azul para dañar la vista.
+| `barbecue` | https://github.com/utilyre/barbecue.nvim | Barbecue es una ayuda para saber donde estas parado y en que funcion/clase estas.
+| `indent-blankline` | https://github.com/utilyre/barbecue.nvim | Sirve para marcar los tab y las indentaciones.
+| `vim-illuminate` | https://github.com/RRethy/vim-illuminate | Ilumina palabras cuando estas son iguales.
+| `nvim-ts-autotag` | https://github.com/windwp/nvim-ts-autotag | Autocompleta los tags tanto de HTML como de otros lenguajes.
+| `zen-model` | https://github.com/folke/zen-mode.nvim | Zen-Mode nos sirve para concentrarnos, nos provee de un modo centrado para que las distracciones sean nulas.
 
-
+Ultima actualizacion de Plugs: 2023-04-14.
 
 ## Mi espacio de trabajo
 
