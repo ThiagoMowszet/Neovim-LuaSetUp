@@ -8,7 +8,9 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
-    use ({'joshdick/onedark.vim'})
+    -- COLORSCHEME
+    use {'joshdick/onedark.vim'}
+    use {'sainnhe/gruvbox-material'}
 
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -84,7 +86,6 @@ use("numToStr/Comment.nvim")
 
 use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
-use {'sainnhe/gruvbox-material'}
 
 use({
     "utilyre/barbecue.nvim",
@@ -106,5 +107,7 @@ use ("RRethy/vim-illuminate")
 use "windwp/nvim-ts-autotag"
 
 use "folke/zen-mode.nvim"
+
+use "norcalli/nvim-colorizer.lua"
 
 end)
