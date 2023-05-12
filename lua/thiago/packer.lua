@@ -9,12 +9,11 @@ return require('packer').startup(function(use)
     }
 
     -- COLORSCHEME
-    use {'joshdick/onedark.vim'}
+    use {'NTBBloodbath/doom-one.nvim'}
     use {'sainnhe/gruvbox-material'}
-
+    use {'darker-dracula/vim'}
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
-
 
     use {
         'VonHeikemen/lsp-zero.nvim',
