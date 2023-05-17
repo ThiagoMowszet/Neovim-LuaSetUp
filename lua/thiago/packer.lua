@@ -11,6 +11,7 @@ return require('packer').startup(function(use)
     -- COLORSCHEME
     use {'NTBBloodbath/doom-one.nvim'}
     use {'sainnhe/gruvbox-material'}
+    use {'ellisonleao/gruvbox.nvim'}
     use {'darker-dracula/vim'}
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -62,7 +63,7 @@ return require('packer').startup(function(use)
 
 
     use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-        require("toggleterm").setup({direction = 'float'})
+        require("toggleterm").setup({direction = 'horizontal'})
     end
 }
 
