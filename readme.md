@@ -58,6 +58,10 @@ Si, 100%.
 | `vim-illuminate` | https://github.com/RRethy/vim-illuminate | Ilumina palabras cuando estas son iguales.
 | `nvim-ts-autotag` | https://github.com/windwp/nvim-ts-autotag | Autocompleta los tags tanto de HTML como de otros lenguajes.
 | `zen-model` | https://github.com/folke/zen-mode.nvim | Zen-Mode nos sirve para concentrarnos, nos provee de un modo centrado para que las distracciones sean nulas.
+| `nvim-colorizer` | https://github.com/norcalli/nvim-colorizer.lua |  Colorizer es nos muestra el highlighting de los colores  
+| `nvim-ts-rainbow` | https://github.com/p00f/nvim-ts-rainbow | Rainbow nos coloriza los simbolos
+| `markdown-preview` | https://github.com/iamcco/markdown-preview.nvim | Markdown Preview nos permite visualizar en tiempo real los cambios que le realizamos a nuestro archivo markdown.
+
 
 Ultima actualizacion de Plugs: 2023-04-14.
 
