@@ -9,20 +9,22 @@ require('nvim-treesitter.configs').setup {
 
     highlight = {
         enable = true,
-        rainbow = {
-            enabled = true,
-            extended_mode = true, 
-            colors = {
-                -- "#68a0b0",
-                -- "#946EaD",
-                -- "#c7aA6D",
-                -- "Gold",
-                -- "Orchid",
-                -- "DodgerBlue",
-                -- "Cornsilk",
-                -- "Salmon",
-                -- "LawnGreen",
-            }
-        }
     },
+
+    rainbow = {
+        enable = true,
+        extended_mode = true,
+    },
+
+    colors = {
+        -- "#68a0b0",
+        -- "#946EaD",
+        -- "#c7aA6D",
+        -- "Gold",
+        -- "Orchid",
+        -- "DodgerBlue",
+        -- "Cornsilk",
+        -- "Salmon",
+        -- "LawnGreen",
+    }
 }

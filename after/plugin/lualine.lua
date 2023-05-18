@@ -3,8 +3,8 @@
 require('lualine').setup {
     options = {
         theme = auto, -- lualine theme
-        component_separators = { left = '', right = '' },
-        section_separators = { left = '', right = '' },
+        component_separators = { left = '', right = '' },
+        section_separators = { left = '', right = '' },        
         disabled_filetypes = {'packer', 'NvimTree'},
 
         always_divide_middle = true, -- When set to true, left sections i.e. 'a','b' and 'c'

@@ -110,4 +110,6 @@ use "folke/zen-mode.nvim"
 
 use "norcalli/nvim-colorizer.lua"
 
+use "p00f/nvim-ts-rainbow"
+
 end)
