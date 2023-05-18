@@ -34,3 +34,5 @@ vim.keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 vim.keymap.set("n", "<leader>gg", "gg<S-v>G") -- select all
 
 vim.keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
+
+vim.keymap.set("n", "<leader>md", ":MarkdownPreview<CR>")

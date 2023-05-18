@@ -9,10 +9,10 @@ return require('packer').startup(function(use)
     }
 
     -- COLORSCHEME
-    use {'NTBBloodbath/doom-one.nvim'}
     use {'sainnhe/gruvbox-material'}
-    use {'ellisonleao/gruvbox.nvim'}
     use {'darker-dracula/vim'}
+    use 'folke/tokyonight.nvim'
+    use "catppuccin/nvim"
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
@@ -111,5 +111,10 @@ use "folke/zen-mode.nvim"
 use "norcalli/nvim-colorizer.lua"
 
 use "p00f/nvim-ts-rainbow"
+
+use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+})
 
 end)
