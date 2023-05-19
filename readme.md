@@ -63,7 +63,7 @@ Si, 100%.
 | `markdown-preview` | https://github.com/iamcco/markdown-preview.nvim | Markdown Preview nos permite visualizar en tiempo real los cambios que le realizamos a nuestro archivo markdown.
 
 
-Ultima actualizacion de Plugs: 2023-04-14.
+Ultima actualizacion de Plugs: 2023-05-18.
 
 ## Mi espacio de trabajo
 
