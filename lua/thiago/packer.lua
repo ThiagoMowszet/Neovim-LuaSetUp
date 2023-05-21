@@ -11,7 +11,6 @@ return require('packer').startup(function(use)
     -- COLORSCHEME
     use {'sainnhe/gruvbox-material'}
     use {'darker-dracula/vim'}
-    use 'folke/tokyonight.nvim'
     use "catppuccin/nvim"
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})

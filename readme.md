@@ -1,14 +1,14 @@
-# Que es Neovim?
-Neovim es un editor de texto basado en modos (un lugar para escribir, otro para insertar comandos, entre otros). Es un fork de Vim, quien a su vez nacio de Vi.
+# Que es Neovim? 🤔
+Neovim es un editor de texto basado en modos (uno para escribir, otro para insertar comandos, otro para visualizar y otro para insertar comandos). Es un fork de Vim, quien a su vez nacio de Vi.
 
-# Porque lo utilizo? 
+# Porque lo utilizo? 🤨
 Simplemente porque es mucho mas rapido que cualquier otro editor de texto que hay, como visual studio code o cualquiera de JetBrains, para poner un ejemplo.
 
 Ademas de su velocidad, algo que me encanta es que es muy personalizable, ya que contamos con muchos plugins para instalar (como las extensiones en vsc) que son muy potentes. 
 
 En este documento voy a detallar cuales uso, para que y como me sirven en el dia a dia como desarrollador de software.
 
-Ademas de todo esto, cuando digo que lo utilizo ya que es rapido, no me refiero solo a su velocidad a la hora de abrir un archivo o el mismo programa.
+Ademas de todo esto, cuando digo que lo utilizo ya que es rapido, no me refiero solo a su velocidad a la hora de abrir un archivo o la misma terminal.
 Sino tambien, que el mismo editor nos da una serie de configuraciones (que pueden ser personalizadas, si, todo es absolutamente es personalizable) para movernos mucho mas 
 rapido dentro del codigo o documento de texto. 
 
@@ -49,21 +49,23 @@ Si, 100%.
 | `auto-save` | https://github.com/Pocco81/auto-save.nvim | Funciona para salvar automaticamente todos los cambios | 
 | `vim-tmux-navigator` | https://github.com/christoomey/vim-tmux-navigator | Nos permite movernos a diferentes espacios de trabajo de forma comoda | 
 | `vim-maximizer` | https://github.com/szw/vim-maximizer | Si estamos trabajando con dos ventanas, nos permite maximizar la actual |
-| `vim-surround` | https://github.com/tpope/vim-surround | Nos permite seleccionar una palabra y agregarle los simboles que querramos | 
+| `vim-surround` | https://github.com/tpope/vim-surround | Nos permite seleccionar una palabra y agregarle los simbolos que querramos | 
 | `comment` | https://github.com/numToStr/Comment.nvim | Funciona para un comentado rapido |
 | `bufferline` | https://github.com/akinsho/bufferline.nvim | Gestor de ventanas | 
-| `gruvbox-material` | https://github.com/sainnhe/gruvbox-material | Gruvbox es mi nuevo esquema de colores. Tiene compatibilidad con todos mis plugins y evita el color azul para dañar la vista.
+| `gruvbox-material` | https://github.com/sainnhe/gruvbox-material | Gruvbox es unos de mis esquemas de colores. Tiene compatibilidad con todos mis plugins y evita el color azul para dañar la vista.
+| `Dracula` | https://github.com/dracula/vim | Dracula es otro de mis esquemas de colores o tambien llamados colorscheme.
+| `Catppuccin` | https://github.com/catppuccin/nvim | Catppuccin, actualmente, mi esquema de colores preferido y que uso constantemente.
 | `barbecue` | https://github.com/utilyre/barbecue.nvim | Barbecue es una ayuda para saber donde estas parado y en que funcion/clase estas.
 | `indent-blankline` | https://github.com/utilyre/barbecue.nvim | Sirve para marcar los tab y las indentaciones.
 | `vim-illuminate` | https://github.com/RRethy/vim-illuminate | Ilumina palabras cuando estas son iguales.
 | `nvim-ts-autotag` | https://github.com/windwp/nvim-ts-autotag | Autocompleta los tags tanto de HTML como de otros lenguajes.
 | `zen-model` | https://github.com/folke/zen-mode.nvim | Zen-Mode nos sirve para concentrarnos, nos provee de un modo centrado para que las distracciones sean nulas.
-| `nvim-colorizer` | https://github.com/norcalli/nvim-colorizer.lua |  Colorizer es nos muestra el highlighting de los colores  
+| `nvim-colorizer` | https://github.com/norcalli/nvim-colorizer.lua |  Colorizer nos muestra el highlighting de los colores  
 | `nvim-ts-rainbow` | https://github.com/p00f/nvim-ts-rainbow | Rainbow nos coloriza los simbolos
 | `markdown-preview` | https://github.com/iamcco/markdown-preview.nvim | Markdown Preview nos permite visualizar en tiempo real los cambios que le realizamos a nuestro archivo markdown.
 
 
-Ultima actualizacion de Plugs: 2023-05-18.
+Ultima actualizacion de Plugs: 2023-05-21.
 
 ## Mi espacio de trabajo
 
