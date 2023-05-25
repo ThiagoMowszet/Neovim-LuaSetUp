@@ -53,8 +53,7 @@ Si, 100%.
 | `comment` | https://github.com/numToStr/Comment.nvim | Funciona para un comentado rapido |
 | `bufferline` | https://github.com/akinsho/bufferline.nvim | Gestor de ventanas | 
 | `gruvbox-material` | https://github.com/sainnhe/gruvbox-material | Gruvbox es unos de mis esquemas de colores. Tiene compatibilidad con todos mis plugins y evita el color azul para dañar la vista.
-| `Dracula` | https://github.com/dracula/vim | Dracula es otro de mis esquemas de colores o tambien llamados colorscheme.
-| `Catppuccin` | https://github.com/catppuccin/nvim | Catppuccin, actualmente, mi esquema de colores preferido y que uso constantemente.
+| `Tokyo-night` | https://github.com/folke/tokyonight.nvim | Tokyo-night es otro scheme color.
 | `barbecue` | https://github.com/utilyre/barbecue.nvim | Barbecue es una ayuda para saber donde estas parado y en que funcion/clase estas.
 | `indent-blankline` | https://github.com/utilyre/barbecue.nvim | Sirve para marcar los tab y las indentaciones.
 | `vim-illuminate` | https://github.com/RRethy/vim-illuminate | Ilumina palabras cuando estas son iguales.
