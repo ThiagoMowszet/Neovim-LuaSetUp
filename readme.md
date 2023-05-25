@@ -1,6 +1,9 @@
 # Que es Neovim? 🤔
 Neovim es un editor de texto basado en modos (uno para escribir, otro para insertar comandos, otro para visualizar y otro para insertar comandos). Es un fork de Vim, quien a su vez nacio de Vi.
 
+![image](https://github.com/ThiagoMowszet/Neovim-LuaSetUp/assets/73196303/bbe1c066-831a-4f27-a91b-1da127207462)
+
+
 # Porque lo utilizo? 🤨
 Simplemente porque es mucho mas rapido que cualquier otro editor de texto que hay, como visual studio code o cualquiera de JetBrains, para poner un ejemplo.
 
