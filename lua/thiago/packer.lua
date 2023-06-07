@@ -10,7 +10,8 @@ return require('packer').startup(function(use)
 
     -- COLORSCHEME
     use "Mofiqul/vscode.nvim"
-    use "tanvirtin/monokai.nvim"
+    use "Shatur/neovim-ayu"
+    use "catppuccin/nvim"
 
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -62,7 +63,7 @@ return require('packer').startup(function(use)
 
 
     use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-        require("toggleterm").setup({direction = 'horizontal'})
+        require("toggleterm").setup({direction = 'float'})
     end
 }
 
