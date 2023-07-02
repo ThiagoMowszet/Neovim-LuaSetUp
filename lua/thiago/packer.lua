@@ -9,9 +9,8 @@ return require('packer').startup(function(use)
     }
 
     -- COLORSCHEME
-    use "Mofiqul/vscode.nvim"
-    use "Shatur/neovim-ayu"
     use "catppuccin/nvim"
+    use "ellisonleao/gruvbox.nvim"
 
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
