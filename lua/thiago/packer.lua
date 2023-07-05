@@ -83,9 +83,6 @@ use("tpope/vim-surround")
 use("numToStr/Comment.nvim")
 
 
-use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
-
-
 use({
     "utilyre/barbecue.nvim",
     tag = "*",
