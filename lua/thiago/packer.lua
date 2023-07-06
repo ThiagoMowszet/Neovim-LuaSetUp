@@ -113,4 +113,7 @@ use({
     run = function() vim.fn["mkdp#util#install"]() end,
 })
 
+use 'ThePrimeagen/harpoon'
+use 'tpope/vim-fugitive'
+
 end)

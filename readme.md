@@ -54,9 +54,6 @@ Si, 100%.
 | `vim-maximizer` | https://github.com/szw/vim-maximizer | Si estamos trabajando con dos ventanas, nos permite maximizar la actual |
 | `vim-surround` | https://github.com/tpope/vim-surround | Nos permite seleccionar una palabra y agregarle los simbolos que querramos | 
 | `comment` | https://github.com/numToStr/Comment.nvim | Funciona para un comentado rapido |
-| `bufferline` | https://github.com/akinsho/bufferline.nvim | Gestor de ventanas | 
-| `gruvbox-material` | https://github.com/sainnhe/gruvbox-material | Gruvbox es unos de mis esquemas de colores. Tiene compatibilidad con todos mis plugins y evita el color azul para dañar la vista.
-| `Tokyo-night` | https://github.com/folke/tokyonight.nvim | Tokyo-night es otro scheme color.
 | `barbecue` | https://github.com/utilyre/barbecue.nvim | Barbecue es una ayuda para saber donde estas parado y en que funcion/clase estas.
 | `indent-blankline` | https://github.com/utilyre/barbecue.nvim | Sirve para marcar los tab y las indentaciones.
 | `vim-illuminate` | https://github.com/RRethy/vim-illuminate | Ilumina palabras cuando estas son iguales.
@@ -65,9 +62,14 @@ Si, 100%.
 | `nvim-colorizer` | https://github.com/norcalli/nvim-colorizer.lua |  Colorizer nos muestra el highlighting de los colores  
 | `nvim-ts-rainbow` | https://github.com/p00f/nvim-ts-rainbow | Rainbow nos coloriza los simbolos
 | `markdown-preview` | https://github.com/iamcco/markdown-preview.nvim | Markdown Preview nos permite visualizar en tiempo real los cambios que le realizamos a nuestro archivo markdown.
+| `gruvbox` |  | testing
+| `catppuccin`| | testing
+| `harpoon` |  | testing
+| `fugitive` | | testing
 
 
-Ultima actualizacion de Plugs: 2023-05-21.
+Ultima actualizacion de Plugs: 2023-07-06.
+
 
 ## Mi espacio de trabajo
 
