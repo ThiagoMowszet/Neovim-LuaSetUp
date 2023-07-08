@@ -10,7 +10,7 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("i", "<C-c>", "<Esc>")
 
 -- vim.keymap.set("n", '<C-n>', ':NvimTreeToggle<CR>')
-vim.keymap.set("n", '<C-n>', ':NeoTreeShowToggle<CR>')
+vim.keymap.set("n", '<C-n>', ':NeoTreeFocusToggle<CR>')
 vim.keymap.set("n", '<C-m>', ':ToggleTerm<CR>')
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 

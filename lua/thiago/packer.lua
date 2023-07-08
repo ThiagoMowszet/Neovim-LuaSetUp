@@ -44,12 +44,6 @@ return require('packer').startup(function(use)
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
 
-    use {
-        'nvim-tree/nvim-tree.lua',
-        requires = {
-            'nvim-tree/nvim-web-devicons'
-        }
-    }
 
 
     use {
@@ -115,8 +109,8 @@ use({
 
 use 'ThePrimeagen/harpoon'
 
-
 use 'tpope/vim-fugitive'
+
 
 use {
   "nvim-neo-tree/neo-tree.nvim",
