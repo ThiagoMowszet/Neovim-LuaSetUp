@@ -44,6 +44,12 @@ return require('packer').startup(function(use)
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
 
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons'
+        }
+    }
 
 
     use {
@@ -110,26 +116,6 @@ use({
 use 'ThePrimeagen/harpoon'
 
 use 'tpope/vim-fugitive'
-
-
-use {
-  "nvim-neo-tree/neo-tree.nvim",
-    branch = "v2.x",
-    requires = { 
-      "nvim-tree/nvim-web-devicons", 
-      "MunifTanjim/nui.nvim",
-    }
-  }
-
-
-use {
-    'goolord/alpha-nvim',
-    requires = { 'nvim-tree/nvim-web-devicons' },
-    config = function ()
-        require'alpha'.setup(require'alpha.themes.startify'.config)
-    end
-}
-
 
 use {
     'karb94/neoscroll.nvim',
