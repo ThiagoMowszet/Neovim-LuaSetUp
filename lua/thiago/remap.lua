@@ -40,3 +40,5 @@ vim.keymap.set("n", "<leader>gg", "gg<S-v>G")
 vim.keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
 vim.keymap.set("n", "<leader>md", ":MarkdownPreview<CR>")
+
+vim.keymap.set("n", "<leader>gm", ":GrammarousCheck --lang=es<CR>")

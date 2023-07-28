@@ -10,7 +10,6 @@ return require('packer').startup(function(use)
 
     -- COLORSCHEME
     use "catppuccin/nvim"
-    use "ellisonleao/gruvbox.nvim"
 
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -120,5 +119,7 @@ use 'tpope/vim-fugitive'
 use {
     'karb94/neoscroll.nvim',
 }
+
+use 'rhysd/vim-grammarous'
 
 end)
