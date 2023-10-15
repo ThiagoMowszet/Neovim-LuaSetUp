@@ -15,13 +15,14 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 
 vim.keymap.set("n", "<leader>hm", [[<Cmd>lua require("harpoon.mark").add_file()<CR>]])
 vim.keymap.set("n", "<leader>hh", [[<Cmd>lua require("harpoon.ui").toggle_quick_menu()<CR>]])
-vim.keymap.set("n", "<leader>hy", [[<Cmd>lua require("harpoon.ui").nav_file(1)<CR>]])
-vim.keymap.set("n", "<leader>hu", [[<Cmd>lua require("harpoon.ui").nav_file(2)<CR>]])
-vim.keymap.set("n", "<leader>hi", [[<Cmd>lua require("harpoon.ui").nav_file(3)<CR>]])
-vim.keymap.set("n", "<leader>ho", [[<Cmd>lua require("harpoon.ui").nav_file(4)<CR>]])
-vim.keymap.set("n", "<leader>hp", [[<Cmd>lua require("harpoon.ui").nav_file(5)<CR>]])
+vim.keymap.set("n", "<leader>y", [[<Cmd>lua require("harpoon.ui").nav_file(1)<CR>]])
+vim.keymap.set("n", "<leader>u", [[<Cmd>lua require("harpoon.ui").nav_file(2)<CR>]])
+vim.keymap.set("n", "<leader>i", [[<Cmd>lua require("harpoon.ui").nav_file(3)<CR>]])
+vim.keymap.set("n", "<leader>o", [[<Cmd>lua require("harpoon.ui").nav_file(4)<CR>]])
+vim.keymap.set("n", "<leader>p", [[<Cmd>lua require("harpoon.ui").nav_file(5)<CR>]])
 
 
+vim.keymap.set("n", "<leader>/", ":FineCmdline<CR>")
 
 vim.keymap.set("n", "<leader>+", "<C-a>")
 vim.keymap.set("n", "<leader>-", "<C-x>")

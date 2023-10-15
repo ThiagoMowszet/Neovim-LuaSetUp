@@ -9,8 +9,8 @@ return require('packer').startup(function(use)
     }
 
     -- COLORSCHEME
-    use "catppuccin/nvim"
-
+    use "navarasu/onedark.nvim"
+    use "olimorris/onedarkpro.nvim"
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
@@ -89,7 +89,6 @@ use({
         "SmiteshP/nvim-navic",
         "nvim-tree/nvim-web-devicons", -- optional dependency
     },
-    after = "nvim-web-devicons", -- keep this if you're using NvChad
     config = function()
         require("barbecue").setup()
     end,
@@ -107,11 +106,6 @@ use "norcalli/nvim-colorizer.lua"
 
 use "p00f/nvim-ts-rainbow"
 
-use({
-    "iamcco/markdown-preview.nvim",
-    run = function() vim.fn["mkdp#util#install"]() end,
-})
-
 use 'ThePrimeagen/harpoon'
 
 use 'tpope/vim-fugitive'
@@ -121,5 +115,15 @@ use {
 }
 
 use 'rhysd/vim-grammarous'
+
+use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+
+
+use {
+  'VonHeikemen/fine-cmdline.nvim',
+  requires = {
+    {'MunifTanjim/nui.nvim'}
+  }
+}
 
 end)
