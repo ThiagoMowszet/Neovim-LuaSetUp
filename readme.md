@@ -1,5 +1,5 @@
 # Que es Neovim? 🤔
-Neovim es un editor de texto basado en modos (Normal, Visual, Insertar). Es un fork de Vim, quien a su vez nacio de Vi.
+Neovim es un editor de texto basado en modos (Normal, Visual, Insertar). Es un fork de Vim, quien a su vez nació de Vi.
 
 ![image](https://github.com/ThiagoMowszet/Neovim-LuaSetUp/assets/73196303/bbe1c066-831a-4f27-a91b-1da127207462)
 
@@ -7,9 +7,9 @@ Neovim es un editor de texto basado en modos (Normal, Visual, Insertar). Es un f
 # Porque lo utilizo? 🤨
 Simplemente porque es mucho más rápido que cualquier otro editor de texto que hay, como visual studio code o cualquiera de JetBrains, para poner un ejemplo.
 
-Ademas de su velocidad, algo que me encanta es que es muy personalizable, ya que contamos con muchos plugins para instalar (como las extensiones en vsc) que son muy potentes. 
+Además de su velocidad, algo que me encanta es que es muy personalizable, ya que contamos con muchos plugins para instalar (como las extensiones en vsc) que son muy potentes. 
 
-En este documento voy a detallar cuales uso, para que y como me sirven en el dia a dia como desarrollador de software.
+En este documento voy a detallar cuáles uso, para que y como me sirven en el dia a dia como desarrollador de software.
 
 Ademas de todo esto, cuando digo que lo utilizo ya que es rapido, no me refiero solo a su velocidad a la hora de abrir un archivo o la misma terminal.
 Sino tambien, que el mismo editor nos da una serie de configuraciones (que pueden ser personalizadas, si, todo es absolutamente es personalizable) para movernos mucho mas 
@@ -68,12 +68,10 @@ Si, 100%.
 | `fugitive` | | testing
 | `tokyonight` | | testing
 | `fine-cdmline` | | testing
-| `rayso` | | testing
-| `vim-grammarous` | | testing
 | `vim-grammarous` | | testing
 
 
-Ultima actualizacion de Plugs: 2023-07-07.
+Ultima actualizacion de Plugs: 2023-10-26.
 
 
 ## Mi espacio de trabajo

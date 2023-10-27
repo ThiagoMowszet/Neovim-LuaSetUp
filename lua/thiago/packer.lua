@@ -9,13 +9,13 @@ return require('packer').startup(function(use)
     }
 
     -- COLORSCHEME
-    use "navarasu/onedark.nvim"
-    use "olimorris/onedarkpro.nvim"
+    use 'folke/tokyonight.nvim'
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
     use {
         'VonHeikemen/lsp-zero.nvim',
+
         requires = {
             -- LSP Support
             {'neovim/nvim-lspconfig'},
@@ -34,7 +34,8 @@ return require('packer').startup(function(use)
             {'L3MON4D3/LuaSnip'},
             {'rafamadriz/friendly-snippets'},
         }
-    } 
+
+    }
 
     use 'nvim-tree/nvim-web-devicons'
 
@@ -64,66 +65,71 @@ return require('packer').startup(function(use)
         require("toggleterm").setup({direction = 'float'})
     end
 }
-
-use({
-    "Pocco81/auto-save.nvim",
-    config = function()
-        require("auto-save").setup {}
-    end,
-})
-
-
-use("christoomey/vim-tmux-navigator")
-
-use("szw/vim-maximizer")
-
-use("tpope/vim-surround")
-
-use("numToStr/Comment.nvim")
+    use({
+        "Pocco81/auto-save.nvim",
+        config = function()
+            require("auto-save").setup {}
+        end,
+    })
 
 
-use({
-    "utilyre/barbecue.nvim",
-    tag = "*",
-    requires = {
-        "SmiteshP/nvim-navic",
-        "nvim-tree/nvim-web-devicons", -- optional dependency
-    },
-    config = function()
-        require("barbecue").setup()
-    end,
-})
+    use("christoomey/vim-tmux-navigator")
 
-use ("lukas-reineke/indent-blankline.nvim")
+    use("szw/vim-maximizer")
 
-use ("RRethy/vim-illuminate")
+    use("tpope/vim-surround")
 
-use "windwp/nvim-ts-autotag"
-
-use "folke/zen-mode.nvim"
-
-use "norcalli/nvim-colorizer.lua"
-
-use "p00f/nvim-ts-rainbow"
-
-use 'ThePrimeagen/harpoon'
-
-use 'tpope/vim-fugitive'
-
-use {
-    'karb94/neoscroll.nvim',
-}
-
-use 'rhysd/vim-grammarous'
-
-use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+    use("numToStr/Comment.nvim")
 
 
-use {
-  'VonHeikemen/fine-cmdline.nvim',
-  requires = {
-    {'MunifTanjim/nui.nvim'}
-  }
-}
+    use({
+        "utilyre/barbecue.nvim",
+        tag = "*",
+        requires = {
+            "SmiteshP/nvim-navic",
+            "nvim-tree/nvim-web-devicons", -- optional dependency
+        },
+        config = function()
+            require("barbecue").setup()
+        end,
+    })
+
+    use ("lukas-reineke/indent-blankline.nvim")
+
+    use ("RRethy/vim-illuminate")
+
+    use "windwp/nvim-ts-autotag"
+
+    use "folke/zen-mode.nvim"
+
+    use "norcalli/nvim-colorizer.lua"
+
+    use "p00f/nvim-ts-rainbow"
+
+    use 'ThePrimeagen/harpoon'
+
+    use 'tpope/vim-fugitive'
+
+    use {
+        'karb94/neoscroll.nvim',
+    }
+
+    use 'rhysd/vim-grammarous'
+
+    use({
+        "iamcco/markdown-preview.nvim",
+        run = function() vim.fn["mkdp#util#install"]() end,
+    })
+
+    use {
+        'VonHeikemen/fine-cmdline.nvim',
+        requires = {
+            {'MunifTanjim/nui.nvim'}
+        }
+    }
+
+    use 'onsails/lspkind-nvim'
+
+    use {'edluffy/hologram.nvim'}
 
 end)
