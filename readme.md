@@ -69,6 +69,9 @@ Si, 100%.
 | `tokyonight` | | testing
 | `fine-cdmline` | | testing
 | `vim-grammarous` | | testing
+|`lspkind-nvim`| | testing
+|`hologram`| | testing
+
 
 
 Ultima actualizacion de Plugs: 2023-10-26.
