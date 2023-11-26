@@ -1,45 +1,51 @@
+local keymap = vim.keymap
+-- local opts = { noremap = true, silent = true }
+
 vim.g.mapleader = " "
 
 
-vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
-vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
-vim.keymap.set("n", "J", "mzJ`z")
-vim.keymap.set("n", "<C-d>", "<C-d>zz")
-vim.keymap.set("n", "<C-u>", "<C-u>zz")
-vim.keymap.set("i", "<C-c>", "<Esc>")
+-- vim.keymap.set("n", "J", "mzJ`z")
+keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("n", "<C-u>", "<C-u>zz")
+-- vim.keymap.set("i", "<C-c>", "<Esc>")
 
-vim.keymap.set("n", '<C-n>', ':NvimTreeToggle<CR>')
-vim.keymap.set("n", '<C-m>', ':ToggleTerm<CR>')
-vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+keymap.set("n", '<C-n>', ':NvimTreeToggle<CR>')
+keymap.set("n", '<C-m>', ':ToggleTerm<CR>')
+keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
-vim.keymap.set("n", "<leader>hm", [[<Cmd>lua require("harpoon.mark").add_file()<CR>]])
-vim.keymap.set("n", "<leader>hh", [[<Cmd>lua require("harpoon.ui").toggle_quick_menu()<CR>]])
-vim.keymap.set("n", "<leader>y", [[<Cmd>lua require("harpoon.ui").nav_file(1)<CR>]])
-vim.keymap.set("n", "<leader>u", [[<Cmd>lua require("harpoon.ui").nav_file(2)<CR>]])
-vim.keymap.set("n", "<leader>i", [[<Cmd>lua require("harpoon.ui").nav_file(3)<CR>]])
-vim.keymap.set("n", "<leader>o", [[<Cmd>lua require("harpoon.ui").nav_file(4)<CR>]])
-vim.keymap.set("n", "<leader>p", [[<Cmd>lua require("harpoon.ui").nav_file(5)<CR>]])
+keymap.set("n", "<leader>hm", [[<Cmd>lua require("harpoon.mark").add_file()<CR>]])
+keymap.set("n", "<leader>hh", [[<Cmd>lua require("harpoon.ui").toggle_quick_menu()<CR>]])
+keymap.set("n", "<leader>y", [[<Cmd>lua require("harpoon.ui").nav_file(1)<CR>]])
+keymap.set("n", "<leader>u", [[<Cmd>lua require("harpoon.ui").nav_file(2)<CR>]])
+keymap.set("n", "<leader>i", [[<Cmd>lua require("harpoon.ui").nav_file(3)<CR>]])
+keymap.set("n", "<leader>o", [[<Cmd>lua require("harpoon.ui").nav_file(4)<CR>]])
+keymap.set("n", "<leader>p", [[<Cmd>lua require("harpoon.ui").nav_file(5)<CR>]])
 
 
-vim.keymap.set("n", "<leader>/", ":FineCmdline<CR>")
+keymap.set("n", ":", ":FineCmdline<CR>")
 
-vim.keymap.set("n", "<leader>+", "<C-a>")
-vim.keymap.set("n", "<leader>-", "<C-x>")
+keymap.set("n", "<leader>+", "<C-a>")
+keymap.set("n", "<leader>-", "<C-x>")
 
-vim.keymap.set("n", "<leader>z", ":ZenMode<CR>")
+keymap.set("n", "<leader>z", ":ZenMode<CR>")
 
-vim.keymap.set("n", "<leader>sv", "<C-w>v")
-vim.keymap.set("n", "<leader>sh", "<C-w>s")
-vim.keymap.set("n", "<leader>se", "<C-w>=")
-vim.keymap.set("n", "<leader>sx", ":close<CR>")
+keymap.set("n", "<leader>sv", "<C-w>v")
+keymap.set("n", "<leader>sh", "<C-w>s")
+keymap.set("n", "<leader>se", "<C-w>=")
+keymap.set("n", "<leader>sx", ":close<CR>")
 
-vim.keymap.set("n", "<leader>q", ":q<CR>")
+keymap.set("n", "<leader>q", ":q<CR>")
 
-vim.keymap.set("n", "<leader>gg", "gg<S-v>G")
+keymap.set("n", "<leader>gg", "gg<S-v>G")
 
-vim.keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
+keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
-vim.keymap.set("n", "<leader>md", ":MarkdownPreview<CR>")
+keymap.set("n", "<leader>md", ":MarkdownPreview<CR>")
 
-vim.keymap.set("n", "<leader>gm", ":GrammarousCheck --lang=es<CR>")
+keymap.set("n", "<leader>gm", ":GrammarousCheck --lang=es<CR>")
+
+keymap.set('n', '<leader>gr', ":Telescope live_grep<Cr>")
+

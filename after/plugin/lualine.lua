@@ -1,15 +1,15 @@
 require('lualine').setup {
     options = {
-        theme = auto, -- lualine theme
-        component_separators = { left = '', right = '' },
-        section_separators = { left = '', right = '' },        
+        theme = "auto",
+        component_separators = { left = '', right = ''},
+        section_separators = { left = '', right = ''},
         disabled_filetypes = {'packer', 'NvimTree'},
 
         always_divide_middle = true, -- When set to true, left sections i.e. 'a','b' and 'c'
         -- can't take over the entire statusline even
         -- if neither of 'x', 'y' or 'z' are present.
 
-        globalstatus = true,        -- enable global statusline (have a single statusline
+        globalstatus = false,        -- enable global statusline (have a single statusline
         -- at bottom of neovim instead of one for  every window).
         -- This feature is only available in neovim 0.7 and higher.
 

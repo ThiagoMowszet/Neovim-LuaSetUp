@@ -70,7 +70,6 @@ Si, 100%.
 | `fine-cdmline` | | testing
 | `vim-grammarous` | | testing
 |`lspkind-nvim`| | testing
-|`hologram`| | testing
 
 
 

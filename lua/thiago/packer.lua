@@ -3,12 +3,11 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
     use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.0',
+        'nvim-telescope/telescope.nvim', tag = '0.1.4',
         -- or                            , branch = '0.1.x',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
-    -- COLORSCHEME
     use 'folke/tokyonight.nvim'
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -61,10 +60,8 @@ return require('packer').startup(function(use)
     use {'lewis6991/gitsigns.nvim'}
 
 
-    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-        require("toggleterm").setup({direction = 'float'})
-    end
-}
+    use { "akinsho/toggleterm.nvim" }
+
     use({
         "Pocco81/auto-save.nvim",
         config = function()
@@ -130,6 +127,16 @@ return require('packer').startup(function(use)
 
     use 'onsails/lspkind-nvim'
 
-    use {'edluffy/hologram.nvim'}
+    use {'stevearc/dressing.nvim'}
 
-end)
+
+    use {
+        'xiantang/darcula-dark.nvim',
+        requires = {"nvim-treesitter/nvim-treesitter"}
+    }
+
+    use {
+        "folke/todo-comments.nvim",
+        dependencies = { "nvim-lua/plenary.nvim" }}
+
+    end)

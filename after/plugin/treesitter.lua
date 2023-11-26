@@ -1,6 +1,6 @@
 require('nvim-treesitter.configs').setup {
 
-    ensure_installed = {"javascript", "lua", "json", "html", "css", "typescript", "markdown", "go", "python"}, -- TODO: JSON works buts crazyy !!
+    ensure_installed = {"javascript", "lua", "json", "html", "css", "typescript", "markdown", "go", "python"},
 
     sync_install = false,
 

@@ -1,5 +1,5 @@
 function ColorMyPencils(color)
-    color = color or "tokyonight-night"
+    color = color or "tokyonight-moon"
     vim.cmd.colorscheme(color)
 
     -- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
@@ -14,8 +14,4 @@ require("ibl").setup {
         remove_blankline_trail = false,
     },
     scope = { enabled = true },
-}
-
-require('hologram').setup {
-    auto_display = true -- WIP automatic markdown image display, may be prone to breaking
 }
