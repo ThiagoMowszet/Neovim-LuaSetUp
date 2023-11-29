@@ -127,11 +127,6 @@ return require("packer").startup(function(use)
 	use({ "stevearc/dressing.nvim" })
 
 	use({
-		"xiantang/darcula-dark.nvim",
-		requires = { "nvim-treesitter/nvim-treesitter" },
-	})
-
-	use({
 		"folke/todo-comments.nvim",
 		dependencies = { "nvim-lua/plenary.nvim" },
 	})

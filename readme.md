@@ -62,22 +62,24 @@ Si, 100%.
 | `nvim-colorizer` | https://github.com/norcalli/nvim-colorizer.lua |  Colorizer nos muestra el highlighting de los colores  
 | `nvim-ts-rainbow` | https://github.com/p00f/nvim-ts-rainbow | Rainbow nos coloriza los simbolos
 | `markdown-preview` | https://github.com/iamcco/markdown-preview.nvim | Markdown Preview nos permite visualizar en tiempo real los cambios que le realizamos a nuestro archivo markdown.
-| `harpoon` |  | testing
-| `fugitive` | | testing
-| `neoscroll` | | testing
-| `fugitive` | | testing
-| `tokyonight` | | testing
-| `fine-cdmline` | | testing
-| `vim-grammarous` | | testing
-|`lspkind-nvim`| | testing
+| `harpoon` | https://github.com/ThePrimeagen/harpoon | Harpoon es una plugin que sirve para moverse entre diferentes buffers, personalmente, unos de los mejores plugins que exiten.
+| `fugitive` | https://github.com/tpope/vim-fugitive | Fugitive es un plugin para Git, con el podemos ejecutar desde nuestro entorno comandos como git commit por poner un ejemplo.
+| `neoscroll` | https://github.com/karb94/neoscroll.nvim | Neoscroll es una forma de desplazarse suavemente entre las lineas de codigo.
+| `tokyonight` | https://github.com/folke/tokyonight.nvim | Tokyonight es mi esquema de colores... por ahora.
+| `fine-cdmline` | https://github.com/VonHeikemen/fine-cmdline.nvim | FineCmdLine es un remplazo de la linea de comandos de nvim, funciona increible y si mapeamos ":" a este plugin incrementas tu productividad un 69%.
+| `vim-grammarous` | https://github.com/rhysd/vim-grammarous | Vim-Grammarous sirve para la correcion de palabras/oraciones en cualquier idioma.
+|`lspkind-nvim`| https://github.com/onsails/lspkind.nvim | LspKind agrega pictogramas parecidos a vscode pero en neovim 💯
+|`dressing`| https://github.com/stevearc/dressing.nvim | Con la version 0.6 de Neovim, llego Dressing, una mejora de UI.
+|`todo-comments`| https://github.com/folke/todo-comments.nvim | Todo-Comments es un plugin para remarcar y destacar palabras claves: TODO, HACK, PERF, NOTE, FIX y WARNING. Esto nos sirve ya que esta acoplado a `Telescope` por lo que podemos buscar nuestras palabras claves muy facilmente.
+|`goto-preview`|  https://github.com/rmagatti/goto-preview | GoTo-Preview es un plugin para ir a definiciones de nuestro codigo y no salir de nuestro buffer.
+|`neoformat`| https://github.com/sbdchd/neoformat | NeoFormat es un plugin para el auto-formateo de nuestros archivos.
 
 
-
-Ultima actualizacion de Plugs: 2023-10-26.
+Ultima actualizacion de Plugs: 2023-11-28.
 
 
 ## Mi espacio de trabajo
 
-#### La fuente que utilizo es: JetBrains Mono Nerd Font
+#### La fuente que utilizo es: IBM Plex Mono - Nerd Font
 
-![workspace-nvim](./images-readme/workspace-nvim.gif)
+![workspace-nvim](./images-readme/nvim.gif)
