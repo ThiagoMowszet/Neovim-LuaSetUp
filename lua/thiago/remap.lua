@@ -3,7 +3,6 @@ local keymap = vim.keymap
 
 vim.g.mapleader = " "
 
-
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
@@ -12,8 +11,8 @@ keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-u>", "<C-u>zz")
 -- vim.keymap.set("i", "<C-c>", "<Esc>")
 
-keymap.set("n", '<C-n>', ':NvimTreeToggle<CR>')
-keymap.set("n", '<C-m>', ':ToggleTerm<CR>')
+keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>")
+keymap.set("n", "<C-m>", ":ToggleTerm<CR>")
 keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 keymap.set("n", "<leader>hm", [[<Cmd>lua require("harpoon.mark").add_file()<CR>]])
@@ -23,7 +22,6 @@ keymap.set("n", "<leader>u", [[<Cmd>lua require("harpoon.ui").nav_file(2)<CR>]])
 keymap.set("n", "<leader>i", [[<Cmd>lua require("harpoon.ui").nav_file(3)<CR>]])
 keymap.set("n", "<leader>o", [[<Cmd>lua require("harpoon.ui").nav_file(4)<CR>]])
 keymap.set("n", "<leader>p", [[<Cmd>lua require("harpoon.ui").nav_file(5)<CR>]])
-
 
 keymap.set("n", ":", ":FineCmdline<CR>")
 
@@ -47,5 +45,12 @@ keymap.set("n", "<leader>md", ":MarkdownPreview<CR>")
 
 keymap.set("n", "<leader>gm", ":GrammarousCheck --lang=es<CR>")
 
-keymap.set('n', '<leader>gr', ":Telescope live_grep<Cr>")
+keymap.set("n", "<leader>gr", ":Telescope live_grep<Cr>")
 
+keymap.set("n", "<leader>cm", ":Telescope git_branches<Cr>")
+
+keymap.set("n", "<leader>ci", ":Telescope git_commits<Cr>")
+
+keymap.set("n", "<leader>tt", ":TodoTelescope<Cr>")
+
+keymap.set("n", "<leader>nn", ":Neoformat<Cr>")

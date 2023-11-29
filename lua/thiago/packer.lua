@@ -1,142 +1,150 @@
-return require('packer').startup(function(use)
+return require("packer").startup(function(use)
+	use("wbthomason/packer.nvim")
 
-    use 'wbthomason/packer.nvim'
+	use({
+		"nvim-telescope/telescope.nvim",
+		tag = "0.1.4",
+		requires = { { "nvim-lua/plenary.nvim" } },
+	})
 
-    use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.4',
-        -- or                            , branch = '0.1.x',
-        requires = { {'nvim-lua/plenary.nvim'} }
-    }
+	use("folke/tokyonight.nvim")
 
-    use 'folke/tokyonight.nvim'
+	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
 
-    use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+	use({
+		"VonHeikemen/lsp-zero.nvim",
 
-    use {
-        'VonHeikemen/lsp-zero.nvim',
+		requires = {
+			-- LSP Support
+			{ "neovim/nvim-lspconfig" },
+			{ "williamboman/mason.nvim" },
+			{ "williamboman/mason-lspconfig.nvim" },
 
-        requires = {
-            -- LSP Support
-            {'neovim/nvim-lspconfig'},
-            {'williamboman/mason.nvim'},
-            {'williamboman/mason-lspconfig.nvim'},
+			-- Autocompletion
+			{ "hrsh7th/nvim-cmp" },
+			{ "hrsh7th/cmp-buffer" },
+			{ "hrsh7th/cmp-path" },
+			{ "saadparwaiz1/cmp_luasnip" },
+			{ "hrsh7th/cmp-nvim-lsp" },
+			{ "hrsh7th/cmp-nvim-lua" },
 
-            -- Autocompletion
-            {'hrsh7th/nvim-cmp'},
-            {'hrsh7th/cmp-buffer'},
-            {'hrsh7th/cmp-path'},
-            {'saadparwaiz1/cmp_luasnip'},
-            {'hrsh7th/cmp-nvim-lsp'},
-            {'hrsh7th/cmp-nvim-lua'},
+			-- Snippets
+			{ "L3MON4D3/LuaSnip" },
+			{ "rafamadriz/friendly-snippets" },
+		},
+	})
 
-            -- Snippets
-            {'L3MON4D3/LuaSnip'},
-            {'rafamadriz/friendly-snippets'},
-        }
+	use("nvim-tree/nvim-web-devicons")
 
-    }
+	use({
+		"nvim-lualine/lualine.nvim",
+		requires = { "kyazdani42/nvim-web-devicons", opt = true },
+	})
 
-    use 'nvim-tree/nvim-web-devicons'
+	use({
+		"nvim-tree/nvim-tree.lua",
+		requires = {
+			"nvim-tree/nvim-web-devicons",
+		},
+	})
 
-    use {
-        'nvim-lualine/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-    }
+	use({
+		"windwp/nvim-autopairs",
+		config = function()
+			require("nvim-autopairs").setup({})
+		end,
+	})
 
-    use {
-        'nvim-tree/nvim-tree.lua',
-        requires = {
-            'nvim-tree/nvim-web-devicons'
-        }
-    }
+	use({ "lewis6991/gitsigns.nvim" })
 
+	use({ "akinsho/toggleterm.nvim" })
 
-    use {
-        "windwp/nvim-autopairs",
-        config = function() require("nvim-autopairs").setup {} end
-    }
+	use({
+		"Pocco81/auto-save.nvim",
+		config = function()
+			require("auto-save").setup({})
+		end,
+	})
 
+	use("christoomey/vim-tmux-navigator")
 
-    use {'lewis6991/gitsigns.nvim'}
+	use("szw/vim-maximizer")
 
+	use("tpope/vim-surround")
 
-    use { "akinsho/toggleterm.nvim" }
+	use("numToStr/Comment.nvim")
 
-    use({
-        "Pocco81/auto-save.nvim",
-        config = function()
-            require("auto-save").setup {}
-        end,
-    })
+	use({
+		"utilyre/barbecue.nvim",
+		tag = "*",
+		requires = {
+			"SmiteshP/nvim-navic",
+			"nvim-tree/nvim-web-devicons", -- optional dependency
+		},
+		config = function()
+			require("barbecue").setup()
+		end,
+	})
 
+	use("lukas-reineke/indent-blankline.nvim")
 
-    use("christoomey/vim-tmux-navigator")
+	use("RRethy/vim-illuminate")
 
-    use("szw/vim-maximizer")
+	use("windwp/nvim-ts-autotag")
 
-    use("tpope/vim-surround")
+	use("folke/zen-mode.nvim")
 
-    use("numToStr/Comment.nvim")
+	use("norcalli/nvim-colorizer.lua")
 
+	use("p00f/nvim-ts-rainbow")
 
-    use({
-        "utilyre/barbecue.nvim",
-        tag = "*",
-        requires = {
-            "SmiteshP/nvim-navic",
-            "nvim-tree/nvim-web-devicons", -- optional dependency
-        },
-        config = function()
-            require("barbecue").setup()
-        end,
-    })
+	use("ThePrimeagen/harpoon")
 
-    use ("lukas-reineke/indent-blankline.nvim")
+	use("tpope/vim-fugitive")
 
-    use ("RRethy/vim-illuminate")
+	use({
+		"karb94/neoscroll.nvim",
+	})
 
-    use "windwp/nvim-ts-autotag"
+	use("rhysd/vim-grammarous")
 
-    use "folke/zen-mode.nvim"
+	use({
+		"iamcco/markdown-preview.nvim",
+		run = function()
+			vim.fn["mkdp#util#install"]()
+		end,
+	})
 
-    use "norcalli/nvim-colorizer.lua"
+	use({
+		"VonHeikemen/fine-cmdline.nvim",
+		requires = {
+			{ "MunifTanjim/nui.nvim" },
+		},
+	})
 
-    use "p00f/nvim-ts-rainbow"
+	use("onsails/lspkind-nvim")
 
-    use 'ThePrimeagen/harpoon'
+	use({ "stevearc/dressing.nvim" })
 
-    use 'tpope/vim-fugitive'
+	use({
+		"xiantang/darcula-dark.nvim",
+		requires = { "nvim-treesitter/nvim-treesitter" },
+	})
 
-    use {
-        'karb94/neoscroll.nvim',
-    }
+	use({
+		"folke/todo-comments.nvim",
+		dependencies = { "nvim-lua/plenary.nvim" },
+	})
 
-    use 'rhysd/vim-grammarous'
+	use({
+		"rmagatti/goto-preview",
+		config = function()
+			require("goto-preview").setup({
+				default_mappings = true,
+				preview_window_title = { enable = true, position = "left" },
+			})
+		end,
+	})
 
-    use({
-        "iamcco/markdown-preview.nvim",
-        run = function() vim.fn["mkdp#util#install"]() end,
-    })
-
-    use {
-        'VonHeikemen/fine-cmdline.nvim',
-        requires = {
-            {'MunifTanjim/nui.nvim'}
-        }
-    }
-
-    use 'onsails/lspkind-nvim'
-
-    use {'stevearc/dressing.nvim'}
-
-
-    use {
-        'xiantang/darcula-dark.nvim',
-        requires = {"nvim-treesitter/nvim-treesitter"}
-    }
-
-    use {
-        "folke/todo-comments.nvim",
-        dependencies = { "nvim-lua/plenary.nvim" }}
-
-    end)
+	use("sbdchd/neoformat")
+end)
