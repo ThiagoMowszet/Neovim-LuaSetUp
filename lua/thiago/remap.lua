@@ -1,5 +1,5 @@
 local keymap = vim.keymap
--- local opts = { noremap = true, silent = true }
+local opts = { noremap = true, silent = true }
 
 vim.g.mapleader = " "
 
@@ -12,7 +12,7 @@ keymap.set("n", "<C-u>", "<C-u>zz")
 -- vim.keymap.set("i", "<C-c>", "<Esc>")
 
 keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>")
-keymap.set("n", "<C-m>", ":ToggleTerm<CR>")
+keymap.set("n", "<C-m>", ":ToggleTerm<CR>", opts)
 keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 keymap.set("n", "<leader>hm", [[<Cmd>lua require("harpoon.mark").add_file()<CR>]])
@@ -43,7 +43,7 @@ keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
 keymap.set("n", "<leader>md", ":MarkdownPreview<CR>")
 
-keymap.set("n", "<leader>gm", ":GrammarousCheck --lang=es<CR>")
+keymap.set("n", "<leader>gm", ":GrammarousCheck --lang=es<CR>", opts)
 
 keymap.set("n", "<leader>gr", ":Telescope live_grep<Cr>")
 
