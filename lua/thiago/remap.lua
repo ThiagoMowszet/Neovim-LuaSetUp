@@ -54,3 +54,5 @@ keymap.set("n", "<leader>ci", ":Telescope git_commits<Cr>")
 keymap.set("n", "<leader>tt", ":TodoTelescope<Cr>")
 
 keymap.set("n", "<leader>nn", ":Neoformat<Cr>")
+
+keymap.set("n", "<leader>dd", ":Telescope diagnostics<Cr>")
