@@ -51,8 +51,16 @@ keymap.set("n", "<leader>cm", ":Telescope git_branches<Cr>")
 
 keymap.set("n", "<leader>ci", ":Telescope git_commits<Cr>")
 
+keymap.set("n", "<leader>st", ":Telescope git_status<Cr>")
+
+keymap.set("n", "<leader>df", ":Git df<Cr>")
+
 keymap.set("n", "<leader>tt", ":TodoTelescope<Cr>")
 
 keymap.set("n", "<leader>nn", ":Neoformat<Cr>")
 
 keymap.set("n", "<leader>dd", ":Telescope diagnostics<Cr>")
+
+keymap.set("n", "<leader>tr", ":TroubleToggle<Cr>")
+
+keymap.set('n', '<space>e', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>')
