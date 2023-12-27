@@ -15,16 +15,4 @@ require('nvim-treesitter.configs').setup {
         enable = true,
         extended_mode = true,
     },
-
-    colors = {
-        -- "#68a0b0",
-        -- "#946EaD",
-        -- "#c7aA6D",
-        -- "Gold",
-        -- "Orchid",
-        -- "DodgerBlue",
-        -- "Cornsilk",
-        -- "Salmon",
-        -- "LawnGreen",
-    }
 }

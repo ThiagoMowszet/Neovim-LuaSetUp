@@ -88,8 +88,6 @@ return require("packer").startup(function(use)
 
 	use("lukas-reineke/indent-blankline.nvim")
 
-	use("RRethy/vim-illuminate")
-
 	use("windwp/nvim-ts-autotag")
 
 	use("folke/zen-mode.nvim")
