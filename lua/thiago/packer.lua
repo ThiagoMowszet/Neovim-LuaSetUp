@@ -141,5 +141,11 @@ return require("packer").startup(function(use)
 
 	use("sbdchd/neoformat")
 
-    use("folke/trouble.nvim")
+	use("folke/trouble.nvim")
+
+	--use("fatih/vim-go")
+
+	use("ray-x/go.nvim")
+
+	use("rose-pine/neovim")
 end)
