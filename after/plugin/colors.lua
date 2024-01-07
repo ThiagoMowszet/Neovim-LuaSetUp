@@ -1,6 +1,4 @@
-require('rose-pine').setup({
-    disable_background = true
-})
+require('rose-pine').setup({})
 
 function ColorMyPencils(color)
 	color = color or "rose-pine-main"
