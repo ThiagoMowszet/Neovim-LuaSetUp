@@ -1,5 +1,3 @@
--- TODO: hacer los mapeos correspondientes para jumping, telescope, etc...
-
 require("todo-comments").setup({
 {
   signs = true, -- show icons in the signs column

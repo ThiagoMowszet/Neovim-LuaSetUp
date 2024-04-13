@@ -79,6 +79,6 @@ Si, 100%.
 
 ## Mi espacio de trabajo
 
-#### La fuente que utilizo es: IBM Plex Mono - Nerd Font
+#### La fuente que utilizo es: IBM Plex Mono / JetBrains Mono - Nerd Font
 
 ![workspace-nvim](./images-readme/nvim.gif)
