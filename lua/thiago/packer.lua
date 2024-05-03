@@ -95,7 +95,12 @@ return require("packer").startup(function(use)
 
 	use("folke/zen-mode.nvim")
 
-	use("norcalli/nvim-colorizer.lua")
+	use({
+        "norcalli/nvim-colorizer.lua",
+        config = function()
+			require("colorizer").setup()
+		end,
+    })
 
 	use("p00f/nvim-ts-rainbow")
 
@@ -105,6 +110,9 @@ return require("packer").startup(function(use)
 
 	use({
 		"karb94/neoscroll.nvim",
+        config = function()
+            require('neoscroll').setup()
+        end,
 	})
 
 	use("rhysd/vim-grammarous")
@@ -135,7 +143,7 @@ return require("packer").startup(function(use)
 	use({
 		"rmagatti/goto-preview",
 		config = function()
-			require("goto-preview").setup({
+			require('goto-preview').setup({
 				default_mappings = true,
 				preview_window_title = { enable = true, position = "left" },
 			})
@@ -146,6 +154,11 @@ return require("packer").startup(function(use)
 
 	use("folke/trouble.nvim")
 
-	use("ray-x/go.nvim")
+	use({
+        "ray-x/go.nvim",
+		config = function()
+            require('go').setup()
+        end,
+    })
 
 end)
