@@ -54,10 +54,8 @@ return require("packer").startup(function(use)
 		end,
 	})
 
-    
     use( {"folke/tokyonight.nvim"} )
 
-    
 	use({ "lewis6991/gitsigns.nvim" })
 
 	use({ "akinsho/toggleterm.nvim" })

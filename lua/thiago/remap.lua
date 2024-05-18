@@ -13,6 +13,7 @@ keymap.set("n", "<C-u>", "<C-u>zz")
 
 keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>")
 keymap.set("n", "<C-m>", ":ToggleTerm<CR>", opts)
+keymap.set("n", "<leader>tg", ":ToggleTermSendCurrentLine<CR>") -- testing
 keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 keymap.set("n", "<leader>hm", [[<Cmd>lua require("harpoon.mark").add_file()<CR>]])
