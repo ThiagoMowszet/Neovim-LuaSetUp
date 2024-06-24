@@ -152,6 +152,7 @@ return require("packer").startup(function(use)
 
 	use("folke/trouble.nvim")
 
+    -- TODO: make some remaps for this plug!
 	use({
         "ray-x/go.nvim",
 		config = function()
