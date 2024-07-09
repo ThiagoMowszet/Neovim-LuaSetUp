@@ -28,6 +28,7 @@ return require("packer").startup(function(use)
 			{ "hrsh7th/cmp-nvim-lua" },
 
 			-- Snippets
+            -- TODO: make custom snippets.
 			{ "L3MON4D3/LuaSnip" },
 			{ "rafamadriz/friendly-snippets" },
 		},
@@ -58,6 +59,7 @@ return require("packer").startup(function(use)
 
 	use({ "lewis6991/gitsigns.nvim" })
 
+    -- NOTE: moving to tmux, so this have no sense.
 	use({ "akinsho/toggleterm.nvim" })
 
 	use({
@@ -122,15 +124,9 @@ return require("packer").startup(function(use)
 		end,
 	})
 
-	use({
-		"VonHeikemen/fine-cmdline.nvim",
-		requires = {
-			{ "MunifTanjim/nui.nvim" },
-		},
-	})
-
 	use("onsails/lspkind-nvim")
 
+    -- PERF: improve the settings of dressing
 	use({ "stevearc/dressing.nvim" })
 
 	use({
