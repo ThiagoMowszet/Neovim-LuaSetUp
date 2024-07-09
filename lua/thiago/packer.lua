@@ -59,9 +59,6 @@ return require("packer").startup(function(use)
 
 	use({ "lewis6991/gitsigns.nvim" })
 
-    -- NOTE: moving to tmux, so this have no sense.
-	use({ "akinsho/toggleterm.nvim" })
-
 	use({
 		"Pocco81/auto-save.nvim",
 		config = function()
@@ -106,6 +103,7 @@ return require("packer").startup(function(use)
 
 	use("ThePrimeagen/harpoon")
 
+    -- TODO: make some remaps for this plug.
 	use("tpope/vim-fugitive")
 
 	use({
