@@ -58,10 +58,12 @@ keymap.set("n", "<leader>df", ":Git df<Cr>")
 
 keymap.set("n", "<leader>tt", ":TodoTelescope<Cr>")
 
-keymap.set("n", "<leader>nn", ":Neoformat<Cr>")
+keymap.set("n", "<leader>nn", ":GoFmt<Cr>")
 
 keymap.set("n", "<leader>dd", ":Telescope diagnostics<Cr>")
 
 keymap.set("n", "<leader>tr", ":TroubleToggle<Cr>")
 
 keymap.set('n', '<space>e', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>')
+
+keymap.set('n', '<leader>m', ':Mason<Cr>')
