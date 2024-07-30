@@ -14,10 +14,10 @@ require('lualine').setup {
         -- This feature is only available in neovim 0.7 and higher.
 
         refresh = {                  -- sets how often lualine should refreash it's contents (in ms)
-        statusline = 1000,         -- The refresh option sets minimum time that lualine tries
-        tabline = 1000,            -- to maintain between refresh. It's not guarantied if situation
-        winbar = 1000              -- arises that lualine needs to refresh itself before this time
+            statusline = 1000,         -- The refresh option sets minimum time that lualine tries
+            tabline = 1000,            -- to maintain between refresh. It's not guarantied if situation
+            winbar = 1000              -- arises that lualine needs to refresh itself before this time
 
+        }
     }
-}
 }

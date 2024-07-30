@@ -154,4 +154,11 @@ return require("packer").startup(function(use)
         end,
     })
 
+    use {
+        "OXY2DEV/helpview.nvim",
+        dependencies = {
+            "nvim-treesitter/nvim-treesitter"
+        }
+    }
+
 end)
